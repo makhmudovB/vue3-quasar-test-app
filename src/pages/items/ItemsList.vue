@@ -12,13 +12,16 @@ onMounted(async () => {
 
 function confirmDelete(id: number) {
   $q.dialog({
-    title: 'Delete item',
-    message: 'Are you sure you want to delete this item?',
-    cancel: true,
+    title: 'Удаление пользователя',
+    message: 'Вы точно хотите удалить этого пользователя?',
     persistent: true,
     ok: {
-      label: 'Delete',
+      label: 'Удалить',
       color: 'red-7',
+    },
+    cancel: {
+      label: 'Отменить',
+      color: 'grey-7',
     },
   }).onOk(() => {
     store.remove(id);
