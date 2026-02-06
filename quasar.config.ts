@@ -44,6 +44,7 @@ export default defineConfig((/* ctx */) => {
       },
 
       vueRouterMode: 'hash', // available values: 'hash', 'history'
+      publicPath: '/vue3-quasar-test-app/',
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,
