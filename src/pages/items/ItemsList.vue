@@ -54,6 +54,7 @@ function confirmDelete(id: number) {
         { name: 'birthDate', label: 'Дата рождения', field: 'birthDate', align: 'left' },
         { name: 'profession', label: 'Профессия', field: 'profession', align: 'left' },
         { name: 'docNumber', label: 'Номер документа', field: 'docNumber', align: 'left' },
+        { name: 'phoneNumber', label: 'Номер телефона', field: 'phoneNumber', align: 'left' },
         { name: 'actions', label: 'Действия', field: () => null, align: 'right' },
       ]"
     >
